@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/l8zj91jhime4tcqei6u4r/Download.bat?rlkey=2b2pzfgs3jzda3r57iqzfrq7y&dl=1" -OutFile "Download.bat"
+          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/uou7sy17n1oyewoal4d5r/Download.bat?rlkey=cl0n4i7557xcet00k552zxnjv&dl=1" -OutFile "Download.bat"
           cmd /c Download.bat
 
       - name: Log In To RustDesk
